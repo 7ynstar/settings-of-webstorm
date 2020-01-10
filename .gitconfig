@@ -1,0 +1,14 @@
+[user]
+	name = zhangxin
+	email = zhangxin@smarchit.com
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	lg = log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	la = -c core.quotepath=false -c log.showSignature=false fetch origin --progress --prune
+[credential]
+	helper = manager
+[winUpdater]
+	recentlySeenVersion = 2.21.0.windows.1
